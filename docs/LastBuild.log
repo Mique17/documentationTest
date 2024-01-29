@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\quent\Documents\School\University\Software project\Documentatie\backend.shfbproj" started="29/01/2024 14:51:58">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\quent\Documents\School\University\Software project\Documentatie
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2023.7.8.0
+Copyright &#169; 2006-2023, Eric Woodruff, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\back-end\back-end\bin\Debug\net8.0\SECODashBackend.dll
+    Found assembly &#39;C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\back-end\back-end\bin\Debug\net8.0\SECODashBackend.dll&#39;
+Source: C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\back-end\back-end\bin\Debug\net8.0\SECODashBackend.xml
+
+Copying XML comments files
+    C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\back-end\back-end\bin\Debug\net8.0\SECODashBackend.xml -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\SECODashBackend.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00,0064
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0138
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+Build started 29/01/2024 14:51:59.
+Project &quot;C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No suggested binding redirects from ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v16.11.2+f3225964253d565862806752e54a7608191a9035)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.Logging.Abstractions (Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel (System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Microsoft.EntityFrameworkCore [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.Core (Microsoft.AspNetCore.Mvc.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Cors (Microsoft.AspNetCore.Cors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Authentication (Microsoft.AspNetCore.Authentication, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by Microsoft.AspNetCore.Authentication.Certificate [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Routing (Microsoft.AspNetCore.Routing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore (Microsoft.AspNetCore, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.Concurrent (System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Runtime.Serialization.Primitives (System.Runtime.Serialization.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel.Annotations (System.ComponentModel.Annotations, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.Options (Microsoft.Extensions.Options, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Linq.Expressions (System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Microsoft.EntityFrameworkCore [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel.TypeConverter (System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Microsoft.EntityFrameworkCore [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.Hosting.Abstractions (Microsoft.Extensions.Hosting.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+  Using framework redirect &#39;System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Net.Http, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.Abstractions (Microsoft.AspNetCore.Mvc.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.Logging (Microsoft.Extensions.Logging, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by SECODashBackend [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.Core (Microsoft.AspNetCore.Mvc.Core, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by Swashbuckle.AspNetCore.Annotations [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.EcosystemsController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.EcosystemsController.GetTechnologyTaxonomy(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.EcosystemsController.SearchByTopics(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.EcosystemsController.UpdateDescription(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.MineController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Controllers.MineController) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.MineController.MineByTaxonomy(System.Collections.Generic.List`1,System.Void,System.String,System.String) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.UsersController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.UsersController.GetByNameAsync(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Controllers.UsersController.LoginRequest(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by Microsoft.EntityFrameworkCore [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1&lt;type parameter.TEntity&gt;) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object,System.Type) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,type parameter.TEntity) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FromExpression(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1&lt;type parameter.TEntity&gt;) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object,System.Type) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,type parameter.TEntity) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FromExpression(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.FilterSubEcosystems(System.Void,SECODashBackend.Dtos.Ecosystem.SubEcosystemDto,System.Collections.Generic.IEnumerable`1&lt;SECODashBackend.Dtos.Ecosystem.SubEcosystemDto&gt;) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.SortAndNormalizeLanguages(System.Void,SECODashBackend.Dtos.ProgrammingLanguage.ProgrammingLanguageDto) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.DataProcessor.DataProcessorService.GetTopics(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.DataProcessor.IDataProcessorService.GetTopics(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Ecosystems.EcosystemsService.AddTopicToEcosystem(System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Taxonomy,System.Collections.Generic.List`1) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Ecosystems.EcosystemsService.GetTechnologyTaxonomy(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Ecosystems.IEcosystemsService.GetTechnologyTaxonomy(System.Void) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Projects.IProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Projects.ProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Scheduler.HangfireScheduler.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Services.Scheduler.HangfireScheduler) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Scheduler.HangfireScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Scheduler.IScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Spider.ISpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Spider.ISpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Spider.SpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: SECODashBackend.Services.Spider.SpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto) [C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj]
+  Wrote information on 21 namespaces, 60 types, and 263 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateRefInfo-d39440ac-dc75-4eca-b067-e1710b14a369.proj&quot; (default targets).
+    Last step completed in 00:00:04,0183
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,1041
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,0732
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,0670
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0270
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:SECODashBackend.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:SECODashBackend.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:SECODashBackend.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;
+    Last step completed in 00:00:01,2356
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0041
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0004
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,0423
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,2204
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0154
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0172
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\quent\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Controllers] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void)] Missing &lt;param name=&quot;logger&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void)] Missing &lt;param name=&quot;ecosystemsService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.CreateEcosystem(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.GetAllAsync] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.GetTechnologyTaxonomy(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.GetTechnologyTaxonomy(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.GetTechnologyTaxonomy(System.Void)] Missing &lt;param name=&quot;ecosystemName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.RemoveEcosystem(SECODashBackend.Dtos.Ecosystem.RemoveEcosystemDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.RemoveEcosystem(SECODashBackend.Dtos.Ecosystem.RemoveEcosystemDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.RemoveEcosystem(SECODashBackend.Dtos.Ecosystem.RemoveEcosystemDto)] Missing &lt;param name=&quot;dto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.SearchByTopics(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.SearchByTopics(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.SearchByTopics(System.Void)] Missing &lt;param name=&quot;dto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.UpdateDescription(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.UpdateDescription(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.EcosystemsController.UpdateDescription(System.Void)] Missing &lt;param name=&quot;req&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Controllers.MineController)] Missing &lt;param name=&quot;logger&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Controllers.MineController)] Missing &lt;param name=&quot;projectsService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Controllers.MineController)] Missing &lt;param name=&quot;scheduler&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByKeyword(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByTaxonomy(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByTaxonomy(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByTaxonomy(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;taxonomy&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByTaxonomy(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;ecosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByTaxonomy(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;keywordAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByTaxonomy(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;topicAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.MineByTopic(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByKeyword(System.String,System.String,System.Int32,SECODashBackend.Services.Scheduler.MiningFrequency)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32)] Missing &lt;param name=&quot;ecosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32)] Missing &lt;param name=&quot;taxonomy&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32)] Missing &lt;param name=&quot;keywordAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32)] Missing &lt;param name=&quot;topicAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTaxonomy(System.String,System.Collections.Generic.List`1,System.Void,System.String,System.Int32)] Missing &lt;param name=&quot;miningFrequency&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.ScheduleMineByTopic(System.String,System.Int32,System.String,SECODashBackend.Services.Scheduler.MiningFrequency)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.UnscheduleMineByKeyword(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.UnscheduleMineByTaxonomy(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.MineController.UnscheduleMineByTopic(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void)] Missing &lt;param name=&quot;logger&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void)] Missing &lt;param name=&quot;usersService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.AddUserAsync(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.AddUserAsync(System.String,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.AddUserAsync(System.String,System.String)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.GetAllAsync] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.GetByNameAsync(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.GetByNameAsync(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.GetByNameAsync(System.Void)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.LoginRequest(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.LoginRequest(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.LoginRequest(System.Void)] Missing &lt;param name=&quot;req&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.PermitEditor(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.PermitEditor(System.String,System.String,System.String)] Missing &lt;param name=&quot;rootAdminId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.PermitEditor(System.String,System.String,System.String)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.PermitEditor(System.String,System.String,System.String)] Missing &lt;param name=&quot;topEcosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.RemoveUser(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.RemoveUser(System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.UpdatePermissions(SECODashBackend.Dtos.User.UpdatePermissionsDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Controllers.UsersController.UpdatePermissions(SECODashBackend.Dtos.User.UpdatePermissionsDto)] Missing &lt;param name=&quot;dto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Database] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:SECODashBackend.Database.EcosystemsContext] Member ID URL resolver service failed.  No further look ups will be performed for this build.
+Reason: The remote server returned an error: (403) Forbidden.
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Database.EcosystemsContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{SECODashBackend.Database.EcosystemsContext})] Missing &lt;param name=&quot;options&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Database.EcosystemsContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Database.EcosystemsContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:SECODashBackend.Database.Extensions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Database.Extensions.CreateDbIfNotExists(Microsoft.Extensions.Hosting.IHost)] Missing &lt;param name=&quot;host&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Database.UserContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{SECODashBackend.Database.UserContext})] Missing &lt;param name=&quot;options&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Database.UserContext.Users] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Database.UserDbInitializer.Initialize(SECODashBackend.Database.EcosystemsContext)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Database.UserDbInitializer.Initialize(SECODashBackend.Database.EcosystemsContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.DataConverters] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.DataConverters.EcosystemConverter.ToDto(SECODashBackend.Models.Ecosystem)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.DataConverters.EcosystemConverter.ToDto(SECODashBackend.Models.Ecosystem)] Missing &lt;param name=&quot;ecosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Dtos.Contributors] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Contributors.ContributorDto.Contributions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Contributors.ContributorDto.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Contributors.ContributorDto.Login] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Contributors.ContributorDto.NodeId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Contributors.ContributorDto.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Contributors.TopContributorDto.Contributions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Contributors.TopContributorDto.Login] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Dtos.Ecosystem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.DescriptionDto.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.DescriptionRequestDto.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.DescriptionRequestDto.Ecosystem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto.EcosystemName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto.Email] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto.Excluded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto.Technologies] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto.Topics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.DisplayName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.NumberOfContributions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.NumberOfContributors] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.NumberOfProjects] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.NumberOfStars] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.NumberOfTopics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.TopContributors] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.Topics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.TopLanguages] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.TopProjects] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.TopSubEcosystems] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemDto.TopTechnologies] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemOverviewDto.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemOverviewDto.DisplayName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemOverviewDto.NumberOfStars] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.EndTime] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.NumberOfTopContributors] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.NumberOfTopLanguages] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.NumberOfTopProjects] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.NumberOfTopSubEcosystems] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.NumberOfTopTechnologies] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.NumbersOfDaysPerBucket] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.StartTime] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.EcosystemRequestDto.Topics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:SECODashBackend.Dtos.Ecosystem.RemoveEcosystemDto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.RemoveEcosystemDto.Ecosystem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Dtos.Ecosystem.SubEcosystemDto.Equals(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Dtos.Ecosystem.SubEcosystemDto.Equals(System.Object)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Dtos.Ecosystem.SubEcosystemDto.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Dtos.Ecosystem.SubEcosystemDto.GetHashCode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Dtos.Ecosystem.SubEcosystemDto.GetHashCode] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.SubEcosystemDto.ProjectCount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Ecosystem.SubEcosystemDto.Topic] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Dtos.ProgrammingLanguage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.ProgrammingLanguage.ProgrammingLanguageDto.Language] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.ProgrammingLanguage.ProgrammingLanguageDto.Percentage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Dtos.Project] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.AdditionalTopics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.Contributors] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.CreatedAt] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.Languages] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.LatestDefaultBranchCommitDate] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.NumberOfStars] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.Owner] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.ReadMe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.Topics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectDto.TotalSize] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectRequestDto.OwnerName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.ProjectRequestDto.RepoName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.TopProjectDto.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.TopProjectDto.NumberOfStars] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Project.TopProjectDto.Owner] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Dtos.TimedData] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.TimedData.TopicsBucketDto.DateLabel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.TimedData.TopicsBucketDto.Topics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Dtos.Topic] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Topic.TopicRequestDto.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Topic.TopicRequestDto.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Topic.TopicRequestDto.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Topic.TopicRequestDto.Readme] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Topic.TopicResponseDto.ProjectId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.Topic.TopicResponseDto.Topics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Dtos.User] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:SECODashBackend.Dtos.User.UpdatePermissionsDto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.User.UpdatePermissionsDto.UserName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.User.UpdatePermissionsDto.UserType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.User.UserPermissionsDto.Ecosystems] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.User.UserPermissionsDto.UserType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.User.UserTypeDto.UserType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.User.UserTypeRequestDto.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Dtos.User.UserTypeRequestDto.Username] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Logging] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.#ctor(SECODashBackend.Logging.FileLoggerProvider)] Missing &lt;param name=&quot;fileLoggerProvider&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;typeparam name=&quot;TState&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;param name=&quot;state&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)] Missing &lt;param name=&quot;logLevel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;typeparam name=&quot;TState&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;logLevel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;eventId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;state&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;exception&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;formatter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{SECODashBackend.Logging.FileLoggerOptions})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{SECODashBackend.Logging.FileLoggerOptions})] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{SECODashBackend.Logging.FileLoggerOptions})] Missing &lt;param name=&quot;builder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{SECODashBackend.Logging.FileLoggerOptions})] Missing &lt;param name=&quot;configure&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Logging.FileLoggerOptions.FilePath] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Logging.FileLoggerOptions.FolderPath] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerProvider.#ctor(Microsoft.Extensions.Options.IOptions`1)] Missing &lt;param name=&quot;options&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerProvider.CreateLogger(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerProvider.CreateLogger(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Logging.FileLoggerProvider.CreateLogger(System.String)] Missing &lt;param name=&quot;categoryName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:SECODashBackend.Logging.FileLoggerProvider.Options] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Migrations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Models] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.BannedTopics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.DisplayName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.NumberOfStars] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.Taxonomy] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.Technologies] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Ecosystem.Users] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Topic.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Topic.Keywords] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Topic.Label] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:SECODashBackend.Models.Topic.Probability] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:SECODashBackend.Models.User.UserType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.Analysis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.#ctor(SECODashBackend.Services.ElasticSearch.IElasticsearchService)] Missing &lt;param name=&quot;elasticsearchService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;topics&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;technologies&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopLanguages&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopSubEcosystems&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopContributors&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopTechnologies&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopProjects&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;startTime&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;endTime&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;timeBucket&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.FilterSubEcosystems(System.Void,SECODashBackend.Dtos.Ecosystem.SubEcosystemDto,System.Collections.Generic.IEnumerable{SECODashBackend.Dtos.Ecosystem.SubEcosystemDto})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.FilterSubEcosystems(System.Void,SECODashBackend.Dtos.Ecosystem.SubEcosystemDto,System.Collections.Generic.IEnumerable{SECODashBackend.Dtos.Ecosystem.SubEcosystemDto})] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.FilterSubEcosystems(System.Void,SECODashBackend.Dtos.Ecosystem.SubEcosystemDto,System.Collections.Generic.IEnumerable{SECODashBackend.Dtos.Ecosystem.SubEcosystemDto})] Missing &lt;param name=&quot;subEcosystemDtos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.FilterSubEcosystems(System.Void,SECODashBackend.Dtos.Ecosystem.SubEcosystemDto,System.Collections.Generic.IEnumerable{SECODashBackend.Dtos.Ecosystem.SubEcosystemDto})] Missing &lt;param name=&quot;topics&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.FilterSubEcosystems(System.Void,SECODashBackend.Dtos.Ecosystem.SubEcosystemDto,System.Collections.Generic.IEnumerable{SECODashBackend.Dtos.Ecosystem.SubEcosystemDto})] Missing &lt;param name=&quot;technologies&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.SortAndNormalizeLanguages(System.Void,SECODashBackend.Dtos.ProgrammingLanguage.ProgrammingLanguageDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.SortAndNormalizeLanguages(System.Void,SECODashBackend.Dtos.ProgrammingLanguage.ProgrammingLanguageDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.SortAndNormalizeLanguages(System.Void,SECODashBackend.Dtos.ProgrammingLanguage.ProgrammingLanguageDto)] Missing &lt;param name=&quot;programmingLanguageDtos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.ElasticsearchAnalysisService.SortAndNormalizeLanguages(System.Void,SECODashBackend.Dtos.ProgrammingLanguage.ProgrammingLanguageDto)] Missing &lt;param name=&quot;numberOfTopLanguages&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;topics&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;technologies&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopLanguages&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopSubEcosystems&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopContributors&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopTechnologies&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;numberOfTopProjects&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;startTime&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;endTime&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Analysis.IAnalysisService.AnalyzeEcosystemAsync(System.Collections.Generic.List`1,System.Void,System.String,System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Technology,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;timeBucket&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.DataProcessor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.DataProcessor.DataProcessorService.#ctor(System.String)] Missing &lt;param name=&quot;connectionString&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.DataProcessor.DataProcessorService.GetTopics(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.DataProcessor.DataProcessorService.GetTopics(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.DataProcessor.DataProcessorService.GetTopics(System.Void)] Missing &lt;param name=&quot;projectDtos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.DataProcessor.IDataProcessorService.GetTopics(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.DataProcessor.IDataProcessorService.GetTopics(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.DataProcessor.IDataProcessorService.GetTopics(System.Void)] Missing &lt;param name=&quot;projectDtos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.Ecosystems] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.#ctor(SECODashBackend.Database.EcosystemsContext,SECODashBackend.Services.Analysis.IAnalysisService)] Missing &lt;param name=&quot;dbContext&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.#ctor(SECODashBackend.Database.EcosystemsContext,SECODashBackend.Services.Analysis.IAnalysisService)] Missing &lt;param name=&quot;analysisService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.AddTopicToEcosystem(System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Taxonomy,System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.AddTopicToEcosystem(System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Taxonomy,System.Collections.Generic.List`1)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.AddTopicToEcosystem(System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Taxonomy,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;tax&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.AddTopicToEcosystem(System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Taxonomy,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;tech&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.AddTopicToEcosystem(System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Taxonomy,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;banned&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.AddTopicToEcosystem(System.Collections.Generic.List`1,System.Void,SECODashBackend.Models.Taxonomy,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;eco&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.CreateEcosystem(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.GetAllAsync] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.GetTechnologyTaxonomy(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.GetTechnologyTaxonomy(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.GetTechnologyTaxonomy(System.Void)] Missing &lt;param name=&quot;ecosystemName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.RemoveEcosystem(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.EcosystemsService.RemoveEcosystem(System.String)] Missing &lt;param name=&quot;ecosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.CreateEcosystem(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.CreateEcosystem(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.CreateEcosystem(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;param name=&quot;dto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.GetTechnologyTaxonomy(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.GetTechnologyTaxonomy(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.GetTechnologyTaxonomy(System.Void)] Missing &lt;param name=&quot;ecosystemName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.RemoveEcosystem(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.RemoveEcosystem(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.RemoveEcosystem(System.String)] Missing &lt;param name=&quot;ecosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.UpdateDescription(SECODashBackend.Dtos.Ecosystem.DescriptionRequestDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.UpdateDescription(SECODashBackend.Dtos.Ecosystem.DescriptionRequestDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.UpdateDescription(SECODashBackend.Dtos.Ecosystem.DescriptionRequestDto)] Missing &lt;param name=&quot;dto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.UpdateTopics(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.UpdateTopics(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Ecosystems.IEcosystemsService.UpdateTopics(SECODashBackend.Dtos.Ecosystem.EcosystemCreationDto)] Missing &lt;param name=&quot;dto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.ElasticSearch] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.#ctor(Elastic.Clients.Elasticsearch.ElasticsearchClient)] Missing &lt;param name=&quot;client&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.#ctor(Elastic.Clients.Elasticsearch.ElasticsearchClient)] Unknown reference link target &#39;T:Elastic.Clients.Elasticsearch.ElasticsearchClient&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.AddProjects(System.Collections.Generic.IEnumerable{SECODashBackend.Dtos.Project.ProjectDto})] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;rawStartTime&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;topics&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.QueryProjects(Elastic.Clients.Elasticsearch.SearchRequest)] Unknown reference link target &#39;T:Elastic.Clients.Elasticsearch.SearchRequest&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SECODashBackend.Services.ElasticSearch.ElasticsearchService.QueryProjects(Elastic.Clients.Elasticsearch.SearchRequest)] Unknown reference link target &#39;T:Elastic.Clients.Elasticsearch.SearchResponse`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.IElasticsearchService.AddProjects(System.Collections.Generic.IEnumerable{SECODashBackend.Dtos.Project.ProjectDto})] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.IElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.IElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.IElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;startTime&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.ElasticSearch.IElasticsearchService.GetProjectCountByDate(System.DateTime,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SECODashBackend.Services.ElasticSearch.IElasticsearchService.QueryProjects(Elastic.Clients.Elasticsearch.SearchRequest)] Unknown reference link target &#39;T:Elastic.Clients.Elasticsearch.SearchRequest&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SECODashBackend.Services.ElasticSearch.IElasticsearchService.QueryProjects(Elastic.Clients.Elasticsearch.SearchRequest)] Unknown reference link target &#39;T:Elastic.Clients.Elasticsearch.SearchResponse`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.Projects] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByKeywordAsync(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;taxonomy&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;ecosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;keywordAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;topicAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.IProjectsService.MineByTopicAsync(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.#ctor(SECODashBackend.Services.ElasticSearch.IElasticsearchService,SECODashBackend.Services.Spider.ISpiderService,SECODashBackend.Services.DataProcessor.IDataProcessorService)] Missing &lt;param name=&quot;elasticsearchService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.#ctor(SECODashBackend.Services.ElasticSearch.IElasticsearchService,SECODashBackend.Services.Spider.ISpiderService,SECODashBackend.Services.DataProcessor.IDataProcessorService)] Missing &lt;param name=&quot;spiderService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.#ctor(SECODashBackend.Services.ElasticSearch.IElasticsearchService,SECODashBackend.Services.Spider.ISpiderService,SECODashBackend.Services.DataProcessor.IDataProcessorService)] Missing &lt;param name=&quot;dataProcessorService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByKeywordAsync(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;taxonomy&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;ecosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;keywordAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByTaxonomyAsync(System.Collections.Generic.List`1,System.Void,System.String,System.String)] Missing &lt;param name=&quot;topicAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Projects.ProjectsService.MineByTopicAsync(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.Scheduler] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:SECODashBackend.Services.Scheduler.HangfireAuthorizationFilter] Unknown reference link target &#39;T:Hangfire.Dashboard.IDashboardAuthorizationFilter&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SECODashBackend.Services.Scheduler.HangfireAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)] Unknown reference link target &#39;T:Hangfire.Dashboard.DashboardContext&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SECODashBackend.Services.Scheduler.HangfireAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)] Unknown reference link target &#39;M:Hangfire.Dashboard.IDashboardAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Services.Scheduler.HangfireScheduler)] Missing &lt;param name=&quot;logger&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Services.Scheduler.HangfireScheduler)] Missing &lt;param name=&quot;recurringJobManager&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void,SECODashBackend.Services.Scheduler.HangfireScheduler)] Missing &lt;param name=&quot;projectsService&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;ecosystemName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;taxonomy&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;keywordAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.HangfireScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;topicAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.IScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.IScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;ecosystemName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.IScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;taxonomy&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.IScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;keywordAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Scheduler.IScheduler.AddRecurringTaxonomyMiningJob(System.String,System.Collections.Generic.List`1,System.Void,System.String)] Missing &lt;param name=&quot;topicAmount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.Spider] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.ISpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.#ctor(System.String)] Missing &lt;param name=&quot;connectionString&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByKeywordAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Spider.SpiderService.GetProjectsByTopicAsync(System.Void,SECODashBackend.Dtos.Project.ProjectDto)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:SECODashBackend.Services.Users] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.#ctor(SECODashBackend.Database.EcosystemsContext,Microsoft.Extensions.Logging.ILogger`1)] Missing &lt;param name=&quot;userContext&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.#ctor(SECODashBackend.Database.EcosystemsContext,Microsoft.Extensions.Logging.ILogger`1)] Missing &lt;param name=&quot;_logger&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.AddEditorToEcosystem(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.AddEditorToEcosystem(System.String,System.String,System.String)] Missing &lt;param name=&quot;rootAdminId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.AddEditorToEcosystem(System.String,System.String,System.String)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.AddEditorToEcosystem(System.String,System.String,System.String)] Missing &lt;param name=&quot;topEcosystem&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.AddUserAsync(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.RemoveById(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.UpdateUserType(System.String,SECODashBackend.Models.User.UserType)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.UpdateUserType(System.String,SECODashBackend.Models.User.UserType)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:SECODashBackend.Services.Users.UsersService.UpdateUserType(System.String,SECODashBackend.Models.User.UserType)] Missing &lt;param name=&quot;newUserType&quot;/&gt; documentation
+Processed 429 topic(s)
+377 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:13,7328
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\backend-Docs\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00,0840
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00,4165
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 628 files for the website content
+    Last step completed in 00:00:00,6813
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,1027
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 29/01/2024 14:52:19.  Total time: 00:00:21,3158
+
+</buildStep>
+</shfbBuild>
