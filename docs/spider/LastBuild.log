@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\quent\Documents\School\University\Software project\Documentatie\Secodash.shfbproj" started="29/01/2024 14:17:12">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\quent\Documents\School\University\Software project\Documentatie\Secodash.shfbproj" started="30/01/2024 12:23:22">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -11,9 +11,6 @@ Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files 
 Loading and initializing plug-ins...
 Website Table of Contents Generator Version 2023.7.8.0
 Copyright &#169; 2006-2023, Eric Woodruff, All Rights Reserved
-</buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
@@ -21,10 +18,9 @@ Clearing any prior web/markdown output...
 Validating and copying documentation source information
 Source: C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\bin\Release\net8.0\spider.dll
     Found assembly &#39;C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\bin\Release\net8.0\spider.dll&#39;
-Source: C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\bin\Release\net8.0\spider.xml
-SHFB: Warning BE0006: Unable to locate any documentation sources for &#39;C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\bin\Release\net8.0\spider.xml&#39; (Configuration: Debug Platform: AnyCPU)
 Source: C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\spider.csproj
     Found project &#39;C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\spider.csproj&#39;
+Source: C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\bin\Debug\spider.xml
 
 Parsing project files
     Found assembly &#39;C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\bin\Debug\net8.0\spider.dll&#39; (.NETCoreApp 8.0)
@@ -345,21 +341,23 @@ References to include:
     System.Xml.XPath
     System.Xml.XPath.XDocument
     WindowsBase
-SHFB: Warning BE0062: No documentation source XML comments files found.  The help file will not contain any member comments.
+
+Copying XML comments files
+    C:\Users\quent\Documents\School\University\Software project\Secodash\Software-Ecosystems\spider\spider\bin\Debug\spider.xml -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\spider.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00,0012
+    Last step completed in 00:00:00,0059
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0000
+    Last step completed in 00:00:00,0052
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-6b7987e5-172b-4f0c-a5d4-826d1584fd19.proj]
-Build started 29/01/2024 14:17:13.
-Project &quot;C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\GenerateRefInfo-6b7987e5-172b-4f0c-a5d4-826d1584fd19.proj&quot; on node 1 (default targets).
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-7a16a15c-e790-4fe9-926e-2d4665f9d67c.proj]
+Build started 30/01/2024 12:23:26.
+Project &quot;C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\GenerateRefInfo-7a16a15c-e790-4fe9-926e-2d4665f9d67c.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateBindingRedirects:
@@ -370,37 +368,37 @@ GenerateRefInfo:
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 318 dependency assemblies.
   Using framework redirect &#39;System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51&#39; in place of &#39;System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51&#39;
-  Wrote information on 7 namespaces, 86 types, and 327 members
+  Wrote information on 7 namespaces, 86 types, and 329 members
   Merging duplicate type and member information
-  Merged 84 duplicate type(s) and 158 duplicate member(s)
-Done Building Project &quot;C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\GenerateRefInfo-6b7987e5-172b-4f0c-a5d4-826d1584fd19.proj&quot; (default targets).
-    Last step completed in 00:00:01,5083
+  Merged 84 duplicate type(s) and 159 duplicate member(s)
+Done Building Project &quot;C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\GenerateRefInfo-7a16a15c-e790-4fe9-926e-2d4665f9d67c.proj&quot; (default targets).
+    Last step completed in 00:00:01,7173
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00,0777
+    Last step completed in 00:00:00,1428
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00,0889
+    Last step completed in 00:00:00,1029
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00,0922
+    Last step completed in 00:00:00,1152
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:03,8866
+    Last step completed in 00:00:04,8555
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
-    Last step completed in 00:00:02,6568
+    Last step completed in 00:00:02,7998
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00,0001
+    Last step completed in 00:00:00,0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -409,22 +407,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,0816
+    Last step completed in 00:00:00,0394
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00,7863
+    Last step completed in 00:00:02,0755
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0010
+    Last step completed in 00:00:00,0130
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00,0164
+    Last step completed in 00:00:00,0211
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -433,385 +431,23 @@ Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\quent\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
 Processing topics...
-SHFB: Warning BE0066: ShowMissingComponent: [N:spider.Controllers] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Controllers.SpiderController] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:spider.Controllers.SpiderController] Member ID URL resolver service failed.  No further look ups will be performed for this build.
 Reason: The remote server returned an error: (403) Forbidden.
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.#ctor(spider.Services.ISpiderProjectService)] Missing &lt;param name=&quot;spiderProjectService&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByName(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByName(System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByName(System.String,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByName(System.String,System.String)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;param name=&quot;repos&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Controllers.SpiderController.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [N:spider.Converters] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Converters.GraphqlDataConverter] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.DataToProjectDtos(spider.Models.Graphql.Repository[])] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.DataToProjectDtos(spider.Models.Graphql.Repository[])] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.DataToProjectDtos(spider.Models.Graphql.Repository[])] Missing &lt;param name=&quot;nodes&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.RepositoryToProject(spider.Models.Graphql.Repository)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.RepositoryToProject(spider.Models.Graphql.Repository)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.RepositoryToProject(spider.Models.Graphql.Repository)] Missing &lt;param name=&quot;repository&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.SearchToProjects(spider.Models.Graphql.SpiderData)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.SearchToProjects(spider.Models.Graphql.SpiderData)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.SearchToProjects(spider.Models.Graphql.SpiderData)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.TopicSearchToProjects(spider.Models.Graphql.TopicSearchData)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.TopicSearchToProjects(spider.Models.Graphql.TopicSearchData)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.GraphqlDataConverter.TopicSearchToProjects(spider.Models.Graphql.TopicSearchData)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Converters.IGraphqlDataConverter] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.RepositoryToProject(spider.Models.Graphql.Repository)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.RepositoryToProject(spider.Models.Graphql.Repository)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.RepositoryToProject(spider.Models.Graphql.Repository)] Missing &lt;param name=&quot;repository&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.SearchToProjects(spider.Models.Graphql.SpiderData)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.SearchToProjects(spider.Models.Graphql.SpiderData)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.SearchToProjects(spider.Models.Graphql.SpiderData)] Missing &lt;param name=&quot;search&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.TopicSearchToProjects(spider.Models.Graphql.TopicSearchData)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.TopicSearchToProjects(spider.Models.Graphql.TopicSearchData)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Converters.IGraphqlDataConverter.TopicSearchToProjects(spider.Models.Graphql.TopicSearchData)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [N:spider.Dtos] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Dtos.ContributorDto] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ContributorDto.Contributions] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ContributorDto.Id] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ContributorDto.Login] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ContributorDto.NodeId] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ContributorDto.Type] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Dtos.ProgrammingLanguageDto] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Dtos.ProgrammingLanguageDto.#ctor(System.String,System.Single)] Missing &lt;param name=&quot;language&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Dtos.ProgrammingLanguageDto.#ctor(System.String,System.Single)] Missing &lt;param name=&quot;percentage&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProgrammingLanguageDto.Language] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProgrammingLanguageDto.Percentage] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Dtos.ProjectDto] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.Contributors] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.CreatedAt] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.Description] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.Id] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.Languages] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.LatestDefaultBranchCommitDate] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.Name] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.NumberOfStars] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.Owner] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.ReadMe] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.Topics] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectDto.TotalSize] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Dtos.ProjectRequestDto] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectRequestDto.OwnerName] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Dtos.ProjectRequestDto.RepoName] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [N:spider.Logging] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Logging.FileLogger] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.#ctor(spider.Logging.FileLoggerProvider)] Missing &lt;param name=&quot;fileLoggerProvider&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;typeparam name=&quot;TState&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.BeginScope``1(``0)] Missing &lt;param name=&quot;state&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)] Missing &lt;param name=&quot;logLevel&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;typeparam name=&quot;TState&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;logLevel&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;eventId&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;state&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;exception&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})] Missing &lt;param name=&quot;formatter&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Logging.FileLoggerExtensions] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{spider.Logging.FileLoggerOptions})] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{spider.Logging.FileLoggerOptions})] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{spider.Logging.FileLoggerOptions})] Missing &lt;param name=&quot;builder&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerExtensions.AddFileLogger(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{spider.Logging.FileLoggerOptions})] Missing &lt;param name=&quot;configure&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Logging.FileLoggerHelper] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerHelper.AddRecord(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerHelper.AddRecord(System.String,System.String)] Missing &lt;param name=&quot;logMessage&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerHelper.AddRecord(System.String,System.String)] Missing &lt;param name=&quot;filePath&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Logging.FileLoggerOptions] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Logging.FileLoggerOptions.FilePath] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Logging.FileLoggerOptions.FolderPath] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Logging.FileLoggerProvider] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerProvider.#ctor(Microsoft.Extensions.Options.IOptions{spider.Logging.FileLoggerOptions})] Missing &lt;param name=&quot;_options&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerProvider.CreateLogger(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerProvider.CreateLogger(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Logging.FileLoggerProvider.CreateLogger(System.String)] Missing &lt;param name=&quot;categoryName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [F:spider.Logging.FileLoggerProvider.Options] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [N:spider.Models.Graphql] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Edges] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Edges.Node] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.History] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.History.Edges] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Language] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Language.Node] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Language.Size] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.LanguageName] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.LanguageName.Name] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Languages] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Languages.Edges] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Languages.TotalSize] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.LatestRelease] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.LatestRelease.Name] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.LatestRelease.Target] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Node] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Node.CommittedDate] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Owner] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Owner.Login] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.PageInfo] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.PageInfo.EndCursor] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.PageInfo.HasNextPage] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.PageInfo.StartCursor] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.RateLimit] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RateLimit.Cost] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RateLimit.Limit] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RateLimit.ReinitAt] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RateLimit.Remaining] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RateLimit.Used] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RateLimit.ResetAt] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.ReadMe] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.ReadMe.Text] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Repository] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.CreatedAt] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.DefaultBranchRef] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.Description] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.Id] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.Languages] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.Name] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.Owner] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.ReadmeCaps] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.ReadmeFstCaps] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.ReadmeLower] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.ReadmerstCaps] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.ReadmerstFstCaps] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.ReadmerstLower] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.RepositoryTopics] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Repository.StargazerCount] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.RepositoryCountData] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RepositoryCountData.RepositoryCount] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.RepositoryWrapper] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RepositoryWrapper.RateLimit] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.RepositoryWrapper.Repository] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.SearchCountData] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.SearchCountData.Search] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.SearchResult] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.SearchResult.Nodes] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.SearchResult.PageInfo] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.SearchResult.RepositoryCount] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.SpiderData] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.SpiderData.RateLimit] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.SpiderData.Search] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Target] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Target.History] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.Topic] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.Topic.Name] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.TopicRepository] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.TopicRepository.Nodes] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.TopicRepository.PageInfo] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.TopicSearch] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.TopicSearch.Repositories] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.TopicSearchData] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.TopicSearchData.RateLimit] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.TopicSearchData.Topic] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.TopicsWrapper] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.TopicsWrapper.Nodes] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Models.Graphql.TopicWrapper] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Models.Graphql.TopicWrapper.Topic] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [N:spider.Services] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Services.GitHubGraphqlService] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.#ctor(spider.Wrappers.IClientWrapper)] Missing &lt;param name=&quot;clientWrapper&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;param name=&quot;repos&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;starCountLower&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;starCountUpper&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;tries&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;repositoryName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;cursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;tries&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;cursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;tries&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;param name=&quot;repositoryName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.checkRatelimit(spider.Models.Graphql.RateLimit)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.checkRatelimit(spider.Models.Graphql.RateLimit)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubGraphqlService.checkRatelimit(spider.Models.Graphql.RateLimit)] Missing &lt;param name=&quot;rateLimit&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Services.GitHubRestService] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubRestService.#ctor(RestSharp.IRestClient)] Missing &lt;param name=&quot;gitHubRestClient&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:spider.Services.GitHubRestService.#ctor(RestSharp.IRestClient)] Unknown reference link target &#39;T:RestSharp.IRestClient&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;repoName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.GitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Services.IGitHubGraphqlService] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;param name=&quot;repos&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;starCountLower&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;starCountUpper&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.GetRepoCount(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;tries&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;cursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByName(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;tries&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByNameHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;cursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopic(System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;tries&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoriesByTopicHelper(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;param name=&quot;repoName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubGraphqlService.QueryRepositoryByName(System.String,System.String)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Services.IGitHubRestService] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;repoName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.IGitHubRestService.GetRepoContributors(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Services.ISpiderProjectService] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByName(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByName(System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByName(System.String,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByName(System.String,System.String)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;param name=&quot;repos&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.ISpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Services.SpiderProjectService] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.#ctor(spider.Services.IGitHubGraphqlService,spider.Converters.IGraphqlDataConverter,spider.Services.IGitHubRestService)] Missing &lt;param name=&quot;gitHubGraphqlService&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.#ctor(spider.Services.IGitHubGraphqlService,spider.Converters.IGraphqlDataConverter,spider.Services.IGitHubRestService)] Missing &lt;param name=&quot;graphqlDataConverter&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.#ctor(spider.Services.IGitHubGraphqlService,spider.Converters.IGraphqlDataConverter,spider.Services.IGitHubRestService)] Missing &lt;param name=&quot;gitHubRestService&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeyword(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByKeywordSplit(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByName(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByName(System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByName(System.String,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByName(System.String,System.String)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByNames(System.Collections.Generic.List{spider.Dtos.ProjectRequestDto})] Missing &lt;param name=&quot;repos&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;topic&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetByTopic(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;startCursor&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;ownerName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Services.SpiderProjectService.GetContributorsByName(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [N:spider.Wrappers] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Wrappers.ClientWrapper] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.ClientWrapper.#ctor(GraphQL.Client.Abstractions.Websocket.IGraphQLWebSocketClient)] Missing &lt;param name=&quot;client&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:spider.Wrappers.ClientWrapper.#ctor(GraphQL.Client.Abstractions.Websocket.IGraphQLWebSocketClient)] Unknown reference link target &#39;T:GraphQL.Client.Abstractions.Websocket.IGraphQLWebSocketClient&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Wrappers.ClientWrapper.Client] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:spider.Wrappers.ClientWrapper.Client] Unknown reference link target &#39;T:GraphQL.Client.Abstractions.Websocket.IGraphQLWebSocketClient&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.ClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.ClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;typeparam name=&quot;TResponse&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.ClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.ClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;param name=&quot;request&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:spider.Wrappers.ClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Unknown reference link target &#39;T:GraphQL.Client.Http.GraphQLHttpRequest&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:spider.Wrappers.ClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Unknown reference link target &#39;T:GraphQL.GraphQLResponse`1&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [T:spider.Wrappers.IClientWrapper] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:spider.Wrappers.IClientWrapper.Client] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:spider.Wrappers.IClientWrapper.Client] Unknown reference link target &#39;T:GraphQL.Client.Abstractions.Websocket.IGraphQLWebSocketClient&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.IClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.IClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;typeparam name=&quot;TResponse&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.IClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:spider.Wrappers.IClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Missing &lt;param name=&quot;request&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:spider.Wrappers.IClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Unknown reference link target &#39;T:GraphQL.Client.Http.GraphQLHttpRequest&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:spider.Wrappers.IClientWrapper.SendQueryAsync``1(GraphQL.Client.Http.GraphQLHttpRequest)] Unknown reference link target &#39;T:GraphQL.GraphQLResponse`1&#39;.
-Processed 299 topic(s)
-371 warning(s)
+Processed 300 topic(s)
+9 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:54,5439
+</plugIn>    Last step completed in 00:00:43,9262
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -847,26 +483,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\quent\Documents\School\University\Software project\Documentatie\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00,0720
+    Last step completed in 00:00:00,0687
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00,2013
+    Last step completed in 00:00:00,2755
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 456 files for the website content
-    Last step completed in 00:00:00,4241
+Copied 458 files for the website content
+    Last step completed in 00:00:00,4369
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,1152
+    Last step completed in 00:00:00,1144
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 29/01/2024 14:18:17.  Total time: 00:01:05,5056
+Build completed successfully at 30/01/2024 12:24:22.  Total time: 00:00:59,6800
 
 </buildStep>
 </shfbBuild>
